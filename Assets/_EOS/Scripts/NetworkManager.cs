@@ -4,8 +4,7 @@ using System.Net.Sockets;
 using System.Text;
 using TMPro;
 
-public class NetworkManager : MonoBehaviour
-{
+public class NetworkManager : MonoBehaviour {
     private TcpClient client;
     private const string IP = "127.0.0.1"; 
     private const int PORT = 9000;
